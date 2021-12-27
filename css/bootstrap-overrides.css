@@ -1,0 +1,62 @@
+@import url("./fonts.css");
+
+:root {
+    --bs-font-sans-serif: "Montserrat", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+        "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bg-primary: #06966e;
+    --bg-primary-hover: #058260;
+    --bg-primary-active: #047a59;
+}
+
+/* - Remove Outlines - */
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+a:focus,
+a:active,
+a:hover {
+    box-shadow: none !important;
+}
+
+/* - Primary Button Colors - */
+.btn-primary {
+    background-color: var(--bg-primary);
+    border-color: var(--bg-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--bg-primary-hover);
+    border-color: var(--bg-primary-hover);
+}
+
+.btn-primary:active {
+    background-color: var(--bg-primary-active);
+    border-color: var(--bg-primary-active);
+}
+
+/* - Outline Primary Button Colors - */
+.btn-outline-primary {
+    color: var(--bg-primary);
+    border-color: var(--bg-primary);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+    color: #fff;
+    background-color: var(--bg-primary-hover);
+    border-color: var(--bg-primary-hover);
+}
+
+.btn-outline-primary:active {
+    color: #fff;
+    background-color: var(--bg-primary-active);
+    border-color: var(--bg-primary-active);
+}

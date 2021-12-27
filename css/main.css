@@ -1,1 +1,62 @@
-@import url("./fonts.css");
+@import url("./bootstrap-overrides.css");
+
+:root {
+    --purple: #152c5d;
+    --gray-light: rgba(255, 255, 255, 0.5);
+    --transition-duration: 200ms;
+}
+
+/* - Side Bar - */
+#side-bar {
+    height: 100vh;
+    width: auto;
+    background-color: var(--purple);
+    background-image: url("../assets/images/side-bar/painter.svg");
+    background-size: 100px 75%;
+    background-position: 95% 150%;
+    background-repeat: no-repeat;
+}
+
+#side-bar .title a {
+    padding-top: 3px;
+    width: 230px;
+    height: 66px;
+}
+
+#side-bar .title img {
+    width: 195px;
+    height: 30px;
+}
+
+#side-bar .nav-link {
+    gap: 17.5px;
+    padding: 17.5px;
+    transition-duration: var(--transition-duration);
+    position: relative;
+    color: var(--gray-light);
+}
+
+#side-bar .nav-link.active {
+    color: var(--bs-white);
+}
+
+#side-bar .nav-link.active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    border-style: solid;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent var(--bs-white) transparent transparent;
+}
+
+#side-bar .nav-link:hover,
+#side-bar .nav-link.active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#side-bar .nav-link img {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
