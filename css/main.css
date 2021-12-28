@@ -17,6 +17,10 @@
     background-repeat: no-repeat;
 }
 
+#side-bar .title {
+    padding: 24px;
+}
+
 #side-bar .title a {
     padding-top: 3px;
     width: 230px;
@@ -26,6 +30,17 @@
 #side-bar .title img {
     width: 195px;
     height: 30px;
+}
+
+#side-bar .title.logo-dark {
+    position: relative;
+    padding-top: 90px;
+}
+
+#side-bar .title.logo-dark a {
+    position: absolute;
+    left: 24px;
+    top: 24px;
 }
 
 #side-bar .nav-link {
