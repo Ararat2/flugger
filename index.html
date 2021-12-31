@@ -5,12 +5,95 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
+
         <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="./css/main.css" />
         <title>FLUGGER</title>
     </head>
     <body>
-        <aside id="side-bar" class="d-none d-md-inline-flex flex-column">
+        <nav class="mobile-navbar navbar-expand-md d-md-none navbar-light">
+            <div class="container-fluid wrapper">
+                <div class="d-flex justify-content-between">
+                    <div class="logo rounded">
+                        <img src="./assets/images/logo-small.png" alt="flugger-logo" />
+                    </div>
+
+                    <button
+                        type="button"
+                        class="toggler collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01"
+                        aria-controls="navbarTogglerDemo01"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="icon top-bar"></span>
+                        <span class="icon middle-bar"></span>
+                        <span class="icon bottom-bar"></span>
+                    </button>
+                </div>
+
+                <div class="content collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <h3>Меню</h3>
+
+                    <ul class="nav-links">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Краски</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Малярный инструмент</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Укрывной материал</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Оборудование</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Аренда Graco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Цветовая политра</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Detale CPH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О Flugger</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Flugger Pro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Найти магазин</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Корзина</a>
+                        </li>
+                    </ul>
+
+                    <div class="social-links d-flex justify-content-evenly">
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <aside class="side-bar d-none d-md-inline-flex flex-column">
             <!-- Medium Screen Title -->
             <div class="title logo-dark d-none d-sm-flex d-lg-none justify-content-center align-items-center">
                 <a href="#" class="d-flex justify-content-center align-items-center bg-white rounded">
