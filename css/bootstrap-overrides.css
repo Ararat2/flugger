@@ -3,9 +3,12 @@
 :root {
     --bs-font-sans-serif: "Montserrat", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
         "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --bg-primary: #06966e;
-    --bg-primary-hover: #058260;
-    --bg-primary-active: #047a59;
+    --bg-primary: #0060a7;
+    --bg-primary-hover: #035694;
+    --bg-primary-active: #01487d;
+    --bg-success: #06966e;
+    --bg-success-hover: #058260;
+    --bg-success-active: #047a59;
 }
 
 /* - Remove Outlines - */
@@ -42,21 +45,38 @@ a:hover {
     border-color: var(--bg-primary-active);
 }
 
-/* - Outline Primary Button Colors - */
-.btn-outline-primary {
-    color: var(--bg-primary);
-    border-color: var(--bg-primary);
+/* - Success Button Colors - */
+.btn-success {
+    background-color: var(--bg-success);
+    border-color: var(--bg-success);
 }
 
-.btn-outline-primary:hover,
-.btn-outline-primary:focus {
-    color: #fff;
-    background-color: var(--bg-primary-hover);
-    border-color: var(--bg-primary-hover);
+.btn-success:hover,
+.btn-success:focus {
+    background-color: var(--bg-success-hover);
+    border-color: var(--bg-success-hover);
 }
 
-.btn-outline-primary:active {
-    color: #fff;
-    background-color: var(--bg-primary-active);
-    border-color: var(--bg-primary-active);
+.btn-success:active {
+    background-color: var(--bg-success-active);
+    border-color: var(--bg-success-active);
+}
+
+/* - Outline Success Button Colors - */
+.btn-outline-success {
+    color: var(--bg-success);
+    border-color: var(--bg-success);
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus {
+    color: var(--bs-white);
+    background-color: var(--bg-success-hover);
+    border-color: var(--bg-success-hover);
+}
+
+.btn-outline-success:active {
+    color: var(--bs-white);
+    background-color: var(--bg-success-active);
+    border-color: var(--bg-success-active);
 }

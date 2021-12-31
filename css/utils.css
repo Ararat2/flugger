@@ -1,0 +1,7 @@
+@import url("./bootstrap-overrides.css");
+
+:root {
+    --purple: #152c5d;
+    --gray-light: rgba(255, 255, 255, 0.5);
+    --transition-duration: 200ms;
+}
