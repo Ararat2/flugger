@@ -3,5 +3,6 @@
 :root {
     --purple: #152c5d;
     --gray-light: rgba(255, 255, 255, 0.5);
+    --gray: #333;
     --transition-duration: 200ms;
 }
