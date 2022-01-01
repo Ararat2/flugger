@@ -1,0 +1,59 @@
+@import url("./side-bar.css");
+@import url("./mobile-navbar.css");
+@import url("./footer.css");
+@import url("./utils.css");
+
+/* - Nav Links - */
+.breadcrumb-wrapper {
+    padding-top: 112px;
+}
+
+.breadcrumb-item {
+    font-size: 22px;
+}
+
+.breadcrumb-item a {
+    color: var(--bs-gray);
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    color: var(--purple);
+}
+
+/* - Page Title - */
+.page-title {
+    font-size: 48px;
+    color: var(--gray);
+}
+
+/* - Products - */
+.products .card {
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.products .card .card-title {
+    font-size: 20px;
+}
+
+.products .card .card-subtitle {
+    font-size: 18px;
+}
+
+.products .card .card-text {
+    font-size: 15px;
+}
+
+/* - Show More Button - */
+.show-more-btn {
+    background: var(--purple);
+    border-radius: 0;
+}
+
+.show-more-btn:hover {
+    background: var(--purple-hover);
+}

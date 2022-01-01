@@ -2,6 +2,7 @@
 
 :root {
     --purple: #152c5d;
+    --purple-hover: #0c1a38;
     --gray-light: rgba(255, 255, 255, 0.5);
     --gray: #333;
     --transition-duration: 200ms;

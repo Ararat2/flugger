@@ -1,19 +1,7 @@
 @import url("./side-bar.css");
 @import url("./mobile-navbar.css");
+@import url("./footer.css");
 @import url("./utils.css");
-
-body {
-    overflow-x: hidden;
-}
-
-.content {
-    min-width: 0;
-}
-
-section {
-    padding-left: 16px;
-    padding-right: 16px;
-}
 
 .section-title {
     border-bottom: 2px solid var(--bs-info);
@@ -71,29 +59,4 @@ section {
 
 .publications .publication .label h3 {
     font-weight: 700;
-}
-
-/* - Footer - */
-footer {
-    background-color: var(--gray);
-    padding: 16px;
-    margin-top: 30px;
-}
-
-footer .social-links a {
-    color: rgba(255, 255, 255, 0.4);
-    font-size: 44px;
-}
-
-footer .social-links a:hover {
-    color: var(--bs-white);
-}
-
-footer .logo {
-    width: 96px;
-    height: 28px;
-}
-
-footer .links li a:hover {
-    text-decoration: none;
 }

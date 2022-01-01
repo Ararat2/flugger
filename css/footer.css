@@ -1,0 +1,25 @@
+@import url("./utils.css");
+
+footer {
+    background-color: var(--gray);
+    padding: 16px;
+    margin-top: 30px;
+}
+
+footer .social-links a {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 44px;
+}
+
+footer .social-links a:hover {
+    color: var(--bs-white);
+}
+
+footer .logo {
+    width: 96px;
+    height: 28px;
+}
+
+footer .links li a:hover {
+    text-decoration: none;
+}

@@ -80,3 +80,12 @@ a:hover {
     background-color: var(--bg-success-active);
     border-color: var(--bg-success-active);
 }
+
+.content {
+    min-width: 0;
+}
+
+section {
+    padding-left: 16px;
+    padding-right: 16px;
+}
