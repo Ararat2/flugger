@@ -37,8 +37,8 @@
                                     type="button"
                                     class="toggler collapsed"
                                     data-bs-toggle="collapse"
-                                    data-bs-target="#navbarTogglerDemo01"
-                                    aria-controls="navbarTogglerDemo01"
+                                    data-bs-target="#navbarToggler"
+                                    aria-controls="navbarToggler"
                                     aria-expanded="false"
                                     aria-label="Toggle navigation"
                                 >
@@ -48,8 +48,21 @@
                                 </button>
                             </div>
 
-                            <div class="content collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <div class="content collapse navbar-collapse" id="navbarToggler">
                                 <h3>Меню</h3>
+
+                                <div class="input-group w-auto product-search">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        placeholder="Введите название продукта"
+                                        aria-label="Search product"
+                                        aria-describedby="button-addon2"
+                                    />
+                                    <button class="btn btn-secondary" type="button">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
 
                                 <ul class="nav-links list-unstyled">
                                     <li class="nav-item">
