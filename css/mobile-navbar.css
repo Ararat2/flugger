@@ -103,16 +103,15 @@
     color: var(--bs-white);
 }
 
-.mobile-navbar .content .social-links {
-    border-top: 1px solid var(--gray-light);
-    padding: 16px;
+.mobile-navbar .cart-link {
+    width: 36px;
+    height: 36px;
+    background-color: var(--purple);
+    padding: 0;
+    margin-right: 6px;
 }
 
-.mobile-navbar .content .social-links a {
-    color: var(--gray-light);
-    font-size: 18px;
-}
-
-.mobile-navbar .content .social-links a:hover {
-    color: var(--bs-white);
+.mobile-navbar .cart-link img {
+    width: 18px;
+    height: 18px;
 }

@@ -22,12 +22,16 @@
                 <div class="col-12">
                     <nav class="mobile-navbar navbar-expand-md d-md-none navbar-light">
                         <div class="container-fluid wrapper">
-                            <div class="d-flex justify-content-between">
-                                <div class="logo rounded">
+                            <div class="d-flex align-items-center">
+                                <div class="logo rounded me-auto">
                                     <a href="#">
                                         <img src="./assets/images/logo-small.png" alt="flugger-logo" />
                                     </a>
                                 </div>
+
+                                <a href="#" class="btn cart-link d-flex justify-content-center align-items-center">
+                                    <img src="./assets/images/side-bar/cart.svg" alt="cart" width="48" height="48" />
+                                </a>
 
                                 <button
                                     type="button"
@@ -47,7 +51,7 @@
                             <div class="content collapse navbar-collapse" id="navbarTogglerDemo01">
                                 <h3>Меню</h3>
 
-                                <ul class="nav-links">
+                                <ul class="nav-links list-unstyled">
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Краски</a>
                                     </li>
@@ -78,22 +82,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Найти магазин</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Корзина</a>
-                                    </li>
                                 </ul>
-
-                                <div class="social-links d-flex justify-content-evenly">
-                                    <a href="#">
-                                        <i class="fab fa-youtube"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-facebook"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </div>
                             </div>
                         </div>
                     </nav>
@@ -122,6 +111,12 @@
                 <!-- Nav Links -->
                 <nav class="overflow-auto">
                     <ul class="list-unstyled">
+                        <li>
+                            <a href="#" class="nav-link d-flex align-items-center text-decoration-none">
+                                <img src="./assets/images/side-bar/cart.svg" alt="cart" />
+                                <span class="d-none d-lg-inline-block">Корзина</span>
+                            </a>
+                        </li>
                         <li>
                             <a href="#" class="nav-link d-flex align-items-center text-decoration-none">
                                 <img src="./assets/images/side-bar/paints.svg" alt="paints" />
@@ -180,12 +175,6 @@
                             <a href="#" class="nav-link d-flex align-items-center text-decoration-none">
                                 <img src="./assets/images/side-bar/find-store.svg" alt="find-store" />
                                 <span class="d-none d-lg-inline-block">Найти магазин</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link d-flex align-items-center text-decoration-none">
-                                <img src="./assets/images/side-bar/cart.svg" alt="cart" />
-                                <span class="d-none d-lg-inline-block">Корзина</span>
                             </a>
                         </li>
                     </ul>
