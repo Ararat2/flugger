@@ -1,7 +1,7 @@
 @import url("./utils.css");
 
 .side-bar {
-    min-height: 100vh;
+    height: 100vh;
     width: auto;
     background-color: var(--purple);
     background-image: url("../assets/images/side-bar/painter.svg");
