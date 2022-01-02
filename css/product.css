@@ -1,0 +1,125 @@
+@import url("./side-bar.css");
+@import url("./mobile-navbar.css");
+@import url("./footer.css");
+@import url("./utils.css");
+
+/* - Nav Links - */
+.breadcrumb-wrapper {
+    padding-top: 112px;
+}
+
+.breadcrumb-item {
+    font-size: 22px;
+}
+
+.breadcrumb-item a {
+    color: var(--bs-gray);
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    color: var(--purple);
+}
+
+/* - Product - */
+.product-img {
+    height: 256px;
+    background-position: 50% 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-size: "auto 100%";
+}
+
+.certificates h3,
+.variants h3 {
+    font-size: 20px;
+}
+
+.certificates img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.variants .title {
+    font-size: 14px;
+}
+
+.variants .variant {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+    min-width: 42px;
+    cursor: pointer;
+    border: 1px solid var(--bg-success);
+}
+
+.variants .variant.active {
+    border-width: 2px;
+}
+
+.price {
+    font-size: 28px;
+}
+
+.price::after {
+    content: "₽";
+    display: inline-block;
+    padding-left: 14px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .cart-btn,
+    .buy-btn {
+        width: 100%;
+    }
+}
+
+/* - Description - */
+.description-title {
+    font-size: 14px;
+}
+
+.description-list li {
+    list-style: circle inside;
+}
+
+.description-list.usages img {
+    width: 70px;
+    height: 70px;
+}
+
+.information-collapse-btn::after {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-bottom: 2px solid var(--bg-success);
+    border-left: 2px solid var(--bg-success);
+    transform: rotate(-45deg);
+    position: relative;
+    top: -1px;
+    left: 2px;
+}
+
+.information-collapse-btn.collapsed::after {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-bottom: none;
+    border-left: none;
+    border-top: 2px solid var(--bg-success);
+    border-right: 2px solid var(--bg-success);
+    transform: rotate(-45deg);
+    position: relative;
+    top: 1px;
+}
+
+.information li {
+    list-style: circle inside;
+}
