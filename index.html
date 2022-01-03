@@ -17,10 +17,6 @@
         <title>FLUGGER</title>
     </head>
     <body>
-        <button class="btn search-btn d-none d-md-inline-block rounded-circle">
-            <i class="fas fa-search fw-light"></i>
-        </button>
-
         <div class="container-fluid p-0">
             <div class="row m-0">
                 <div class="col-12 p-0">
@@ -199,6 +195,23 @@
             </aside>
 
             <div class="container-fluid p-0 content bg-light content">
+                <button class="btn search-btn d-none d-md-inline-block rounded-circle">
+                    <i class="fas fa-search fw-light"></i>
+                </button>
+
+                <div class="bg-white search-modal-content closed d-flex justify-content-center align-items-center">
+                    <button class="btn close-btn position-absolute top-0 end-0">
+                        <i class="fas fa-times fw-light"></i>
+                    </button>
+                    <form>
+                        <input
+                            class="form-control form-control-lg bg-light"
+                            type="text"
+                            placeholder="Введите название продукта"
+                        />
+                    </form>
+                </div>
+
                 <div class="row m-0">
                     <div class="col-12 p-0">
                         <div class="main-slider">
