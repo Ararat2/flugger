@@ -125,6 +125,12 @@
     border: 1px solid var(--bg-success);
 }
 
+@media screen and (max-width: 576px) {
+    .variants .variant {
+        min-width: 28px;
+    }
+}
+
 .variants .variant.active {
     border-width: 2px;
 }
